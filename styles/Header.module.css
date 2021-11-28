@@ -6,11 +6,13 @@
   max-height: 90px;
   max-height: 90px;
   align-items: center;
+
   background-color: white;
 }
 
 .tabs {
-  margin: 10;
+  margin: 20;
+  font-size: 2vmin;
   text-align: center;
   padding: 1rem;
   color: black;

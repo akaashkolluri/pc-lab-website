@@ -8,7 +8,7 @@ export default function Lab1() {
       <Header />
       <p style={{ flex: 1 }} />
       <h1> Calculating G</h1>
-      <object data="/labs/Lab01_Calculating_g.pdf" type="application/pdf" />
+      <object data="/labs/Lab01.pdf" type="application/pdf" />
       <p style={{ flex: 1 }} />
       <Footer />
     </div>

@@ -75,13 +75,13 @@ class Header extends Component {
           <Link href="/labs/1">
             <a className={styles.tabs}>Calculating G</a>
           </Link>
-          <Link href="/labs/1">
-            <a className={styles.tabs}>Coffe Filter</a>
+          <Link href="/labs/3">
+            <a className={styles.tabs}>Atwood</a>
           </Link>
-          <Link href="/labs/1">
-            <a className={styles.tabs}>Another Lab</a>
+          <Link href="/labs/4">
+            <a className={styles.tabs}>Coffee Filter</a>
           </Link>
-          <p style={{ flex: 1 }} />
+          <p style={{ flex: 3 }} />
           <Dropdown overlay={dropdownMenu}>
             <a className={styles.tabs}>All Labs</a>
           </Dropdown>

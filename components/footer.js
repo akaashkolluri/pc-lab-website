@@ -8,7 +8,7 @@ class Footer extends Component {
       <Layout.Footer className={styles.footer}>
         <Col>
           <a>Made with ❤️ for Mr. Shah&apos;s Physics C Class</a>
-          <p>Mr. Shah I hope you like the website</p>
+          <p>Mr. Shah I hope you like it!</p>
         </Col>
       </Layout.Footer>
     );

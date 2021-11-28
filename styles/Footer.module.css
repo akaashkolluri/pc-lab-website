@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #5e4ae350;
+  align-items: center;
+  text-align: center;
+  background-color: #00000000;
+}
+
+.footer p {
+  color: black;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: #5e4ae3;
+}

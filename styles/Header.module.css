@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #5e4ae350;
+  border-right: 0px;
+  max-height: 90px;
+  max-height: 90px;
+  align-items: center;
+  background-color: white;
+}
+
+.tabs {
+  margin: 10;
+  text-align: center;
+  padding: 1rem;
+  color: black;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.tabs:hover,
+.tabs:focus,
+.tabs:active {
+  color: #5e4ae3;
+}
+
+.offersMenu {
+  background-color: #947bd3;
+  color: white;
+}
+
+.offersMenu a {
+  color: white;
+}
+
+.offersMenu a:hover,
+.offersMenu a:focus,
+.offersMenu a:active {
+  color: #5e4ae3;
+}

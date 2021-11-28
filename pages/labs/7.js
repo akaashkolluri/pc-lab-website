@@ -7,8 +7,9 @@ export default function Lab1() {
     <div className={styles.container}>
       <Header />
       <p style={{ flex: 1 }} />
-      <h1> Calculating G</h1>
-      <object data="/labs/Lab01_Calculating_g.pdf" type="application/pdf" />
+      <h1> Ballistic Pendulum</h1>
+
+      <object data="/labs/Lab06.pdf" type="application/pdf" />
       <p style={{ flex: 1 }} />
       <Footer />
     </div>

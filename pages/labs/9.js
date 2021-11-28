@@ -7,8 +7,8 @@ export default function Lab1() {
     <div className={styles.container}>
       <Header />
       <p style={{ flex: 1 }} />
-      <h1> Calculating G</h1>
-      <object data="/labs/Lab01_Calculating_g.pdf" type="application/pdf" />
+      <h1> Inquiry - Rolling Objects</h1>
+      <object data="/labs/Lab02.pdf" type="application/pdf" />
       <p style={{ flex: 1 }} />
       <Footer />
     </div>

@@ -17,7 +17,7 @@ export default function Lab1() {
           </h3>
         </div>
 
-        <object data="/labs/Lab02.pdf" type="application/pdf" />
+        <object data="/labs/rolling.pdf" type="application/pdf" />
       </div>
       <p style={{ flex: 1 }} />
       <Footer />

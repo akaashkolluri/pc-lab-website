@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <Layout.Footer className={styles.footer}>
         <Col>
-          <a href="">Made with ❤️ for Mr. Shah's Physics C Class</a>
+          <a>Made with ❤️ for Mr. Shah&apos;s Physics C Class</a>
           <p>Mr. Shah I hope you like the website</p>
         </Col>
       </Layout.Footer>

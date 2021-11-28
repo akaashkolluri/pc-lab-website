@@ -14,4 +14,25 @@
 .container h1 {
   align-self: center;
   font-weight: lighter;
+  font-variant: u;
+}
+
+.midrow {
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  margin: 100;
+}
+
+.col {
+  max-width: 30vw;
+  margin-right: 50px;
+  font-size: min(10pt, 1.5vw);
+}
+
+.col h2 {
+  font-size: 18pt;
+}
+
+.col h3 {
 }

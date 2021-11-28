@@ -20,6 +20,7 @@ export default function Home() {
         <img
           src="/home1.png"
           alt="Mr. Shah teaching us about energy."
+          title="Mr. Shah teaching us about energy."
           className={styles.image1}
         />
         <p style={{ flex: 1 }} />

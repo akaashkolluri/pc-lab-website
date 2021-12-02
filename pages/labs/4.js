@@ -6,7 +6,7 @@ export default function Lab1() {
   return (
     <div className={styles.container}>
       <Header />
-      <p style={{ flex: 1 }} />
+      <p />
       <h1> Coffee Filter Lab</h1>
       <div className={styles.row}>
         <div className={styles.col}>

@@ -19,7 +19,7 @@ export default function Lab1() {
             second, a tennis ball was dropped, and third a pendulum was put into
             motion. In the first test, the car’s initial height, final height,
             mass, and ramp length were kept constant; time was measured; gravity
-            was calculated. In the second test, the tennis balls' mass and drop
+            was calculated. In the second test, the tennis balls mass and drop
             height were kept constant, the time to drop was measured, and
             gravity was calculated. In the third test, the pendulum string
             length, the pendulum mass, and the pendulum start angle were kept

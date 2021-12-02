@@ -9,8 +9,9 @@ export default function Lab1() {
       <p style={{ flex: 1 }} />
       <h1> Coffee Filter Lab</h1>
       <div className={styles.trirow}>
-        <div className={styles.imgCap}>
+        <div className={styles.imgcap}>
           <img src="/filter/materials.png" text="lab materials" />{" "}
+          <h3>Fig. 1: All lab materials </h3>
         </div>
         <div>
           <h2>Materials</h2>

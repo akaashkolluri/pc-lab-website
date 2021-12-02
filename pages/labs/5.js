@@ -1,6 +1,6 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import styles from "../../styles/LabPage.module.css";
+import styles from "../../styles/DetailLab.module.css";
 
 export default function Lab1() {
   return (
@@ -8,8 +8,7 @@ export default function Lab1() {
       <Header />
       <p style={{ flex: 1 }} />
       <h1> Projectile Launchers/Conservation of Energy</h1>
-
-      <div className={styles.midrow}>
+      <div className={styles.row}>
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>

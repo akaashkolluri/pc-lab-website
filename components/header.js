@@ -75,8 +75,8 @@ class Header extends Component {
           <Link href="/labs/1">
             <a className={styles.tabs}>Calculating G</a>
           </Link>
-          <Link href="/labs/3">
-            <a className={styles.tabs}>Atwood</a>
+          <Link href="/labs/5">
+            <a className={styles.tabs}>Projectile Launchers</a>
           </Link>
           <Link href="/labs/4">
             <a className={styles.tabs}>Coffee Filter</a>

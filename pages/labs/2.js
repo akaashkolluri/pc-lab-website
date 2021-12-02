@@ -12,8 +12,16 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, we attempt In this lab, we attemptIn this lab, we
-            attemptIn this lab, we attemptIn this lab, we attempt
+            In this lab, kinematics was used to calculate final conditions given
+            initial ones. In a simulation, a ball was launched from a cannon
+            into 2d projectile motion. The launch angle and ball mass were kept
+            constant; initial launch speed was varied; final distance was
+            measured. A regression was done to analyze the relation between
+            launch velocity and final distance, and final distance was found to
+            be proportional to initial launch velocity squared. This result is
+            useful as it demonstrates kinematics equations at play, and this
+            relationship can be confirmed through solving for final distance
+            using kinematic equations only.
           </h3>
         </div>
 

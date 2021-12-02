@@ -13,8 +13,16 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, we attempt In this lab, we attemptIn this lab, we
-            attemptIn this lab, we attemptIn this lab, we attempt
+            In this lab, impulse was related to the change in velocity of an
+            object. In a simulated lab, a force was exerted on an astronaut for
+            a set amount of time, and the time it took the astronaut to travel
+            between 2 photogates was measured. The photogate distance, the mass
+            of the astronaut, and the force time were all kept constant; the
+            force amount was varied; the velocity of the astronaut was
+            calculated. A regression was done to analyze the relation between
+            force and velocity, and a strong linear correlation was found. These
+            results demonstrate the impulse-momentum theorem in play in a
+            simulated scenario.
           </h3>
         </div>
 

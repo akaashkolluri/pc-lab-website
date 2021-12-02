@@ -10,10 +10,7 @@ export default function Lab1() {
       <div className={styles.midrow}>
         <div className={styles.col}>
           <h2>Summary</h2>
-          <h3>
-            In this lab, we attempt In this lab, we attemptIn this lab, we
-            attemptIn this lab, we attemptIn this lab, we attempt
-          </h3>
+          <h3>Coming</h3>
         </div>
 
         <object data="/labs/Lab08.pdf" type="application/pdf" />

@@ -13,8 +13,17 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, we attempt In this lab, we attemptIn this lab, we
-            attemptIn this lab, we attemptIn this lab, we attempt
+            In this lab, conservation of energy and momentum were observed in
+            the scenario of a ballistic pendulum. In a simulated lab, a bullet
+            was shot into a pendulum and the pendulum was put into motion. The
+            velocity of the initial bullet was related to the max height of the
+            pendulum. Bullet weight, pendulum starting height, and block mass
+            were all kept constant; initial bullet speed was varied; max height
+            was measured. Max height was found to be portional to the square of
+            bullet speed. This lab demonstrates the law of conservation of
+            momentum (used in the bullet-block collision), and law of
+            conservation in energy (used during pendulum motion to relate max
+            pendulum speed and max height) in a simulated scenario.
           </h3>
         </div>
 

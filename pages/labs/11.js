@@ -14,9 +14,9 @@ export default function Lab1() {
           <h2>Summary</h2>
           <h3>
             In this lab, the relationship between the displacement and period
-            time of a pendulum was determined. A pendulum was pulled backwards
-            from a small angle and then dropped and the time it took to complete
-            a period was measured. The pendulum mass and angle dropped from were
+            time of a pendulum was determined. A pendulum was pulled backwards a
+            small angle and then dropped, and the time it took to complete a
+            period was measured. The pendulum mass and angle dropped from were
             kept constant, the length of the pendulum was varied, and the period
             of the pendulum was measured. Then, a regression of the period vs.
             length revealed that it was a square root relationship, implying

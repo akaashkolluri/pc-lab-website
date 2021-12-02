@@ -3,6 +3,7 @@
   min-height: 100vh;
   flex-direction: column;
   display: flex;
+  font-weight: lighter;
 }
 .container object {
   min-height: 80vh;
@@ -37,6 +38,10 @@
 
 .col h2 {
   font-size: 18pt;
+}
+
+.col h3 {
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 1000px) {

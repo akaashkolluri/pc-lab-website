@@ -26,8 +26,14 @@ export default function Lab1() {
             ½*m*v^2), which this proportionality shows.
           </h3>
         </div>
+      </div>
 
-        <object data="/labs/Lab04.pdf" type="application/pdf" />
+      <div className={styles.row}>
+        <div className={styles.col}>
+          <h2>Entire Lab Report Document</h2>
+          <h3>This was a fun night lab</h3>
+        </div>
+        <object data="/labs/Lab05.pdf" type="application/pdf" />
       </div>
       <p style={{ flex: 1 }} />
       <Footer />

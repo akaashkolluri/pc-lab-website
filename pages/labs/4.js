@@ -12,18 +12,18 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, the law of conversion of energy between different forms
-            of energy was observed in the real world. A projectile launcher was
-            set to shoot a ball horizontally. The spring, launch height, and
-            ball mass were kept constant; the displacement from equilibrium of
-            the spring was varied; the resultant launch distance and time were
-            measured; the velocity of the ball was calculated. The results
-            suggest that the mass times the velocity squared of the ball was
-            proportional to the displacement of the spring squared. This result
-            is useful as it demonstrates conservation of energy in the real
-            world; all of the spring potential energy (given by
-            ½*k*displacement^2) was converted to kinetic energy(given by
-            ½*m*v^2), which this proportionality shows.
+            In this lab, the resistive force acting on coffee filters was
+            related to their velocity in order to determine if coffee filters
+            undergo linear or quadratic drag. Coffee filters were dropped over a
+            motion sensor. The drop height was kept constant, the weight was
+            varied (by dropping fewer coffee filters each time), and the
+            resultant terminal velocity was measured. Mass was found to be
+            proportional to terminal velocity squared, and since we derived that
+            in quadratic air drag, 𝑣𝑡 = √(mg/b), we know that coffee filters
+            undergo quadratic air resistance. This is significant as it confirms
+            that coffee filters do undergo quadratic air resistance, which is
+            expected since they are not dense and therefore easily affected by
+            drag.
           </h3>
         </div>
       </div>

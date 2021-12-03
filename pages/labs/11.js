@@ -123,13 +123,14 @@ export default function Lab1() {
             In this lab, the length of a pendulum was changed, and the value
             that varied with this was the period of the pendulum. Kept constant
             were values of mass and angle.
-            <p /> The graph of the length of the pendulum is square root
-            proportional to the period. So, to linearize the graph, the length
-            of the pendulum is square rooted while the period stays the same. In
-            our graph, the power of the x value, the length, is 0.6 (close to
-            0.5), which agrees with the theoretical equation for period relation
-            with length. Our linearized graph has an R^2 value of 0.97, so it is
-            relatively accurate data.
+            <p /> The graph of the length of the pendulum was found to be square
+            root proportional to the period. So, to linearize the graph, the
+            length of the pendulum is square rooted while the period stays the
+            same. In our graph, the power of the x value, the length, is 0.6
+            (close to 0.5), which agrees with the theoretical equation for
+            period relation with length. Our linearized graph has an R^2 value
+            of 0.97, so it is relatively accurate data. This finding is
+            consistent with the theoretical formula for pendulum period.
             <p />
             Changing the mass should not affect the period of oscillation.
             Because objects of the same mass experience the same acceleration

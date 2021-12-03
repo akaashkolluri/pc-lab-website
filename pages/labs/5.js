@@ -6,7 +6,7 @@ export default function Lab1() {
   return (
     <div className={styles.container}>
       <Header />
-      <p style={{ flex: 1 }} />
+
       <h1> Projectile Launchers/Conservation of Energy</h1>
       <div className={styles.row}>
         <div className={styles.col}>
@@ -33,7 +33,7 @@ export default function Lab1() {
           <h2>Entire Lab Report Document</h2>
           <h3>This was a fun night lab</h3>
         </div>
-        <object data="/labs/Lab05.pdf" type="application/pdf" />
+        <object data="/labs/Lab04.pdf" type="application/pdf" />
       </div>
       <p style={{ flex: 1 }} />
       <Footer />

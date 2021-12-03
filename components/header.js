@@ -72,11 +72,11 @@ class Header extends Component {
             <a className={styles.tabs}>Akaash Kolluri</a>
           </Link>
           <p style={{ flex: 25 }} />
-          <Link href="/labs/1">
-            <a className={styles.tabs}>Calculating G</a>
+          <Link href="/labs/11">
+            <a className={styles.tabs}>Pendula: Periods</a>
           </Link>
-          <Link href="/labs/5">
-            <a className={styles.tabs}>Projectile Launchers</a>
+          <Link href="/labs/8">
+            <a className={styles.tabs}>Measuring Elasticity</a>
           </Link>
           <Link href="/labs/4">
             <a className={styles.tabs}>Coffee Filter</a>

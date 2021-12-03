@@ -71,11 +71,7 @@ export default function Lab1() {
           <div>
             <h2>Data</h2>
           </div>
-          <img
-            src="/filter/table1.png"
-            classname={styles.thintable}
-            text="lab materials"
-          />
+          <img src="/filter/table1.png" text="lab materials" />
           <h3>
             <b> Table 1. </b> A table recording the terminal velocity of falling
             coffee filters with respect to the mass and number of coffee filters
@@ -118,7 +114,7 @@ export default function Lab1() {
             <h2></h2>
           </div>
 
-          <img src="/filter/table2.png" classname={styles.thintable} />
+          <img src="/filter/table2.png" />
           <h3>
             <b> Table 2. </b> A table recording the terminal velocity squared of
             falling coffee filters with respect to the mass and number of coffee

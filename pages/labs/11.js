@@ -53,9 +53,9 @@ export default function Lab1() {
             1. Tie the pendulum at some low height. Measure the length. Then,
             let it go from a small angle to swing.
             <p />
-            2. Time the pendulum's period of oscillation using a stopwatch.
+            2. Time the pendulum&apos;s period of oscillation using a stopwatch.
             <p />
-            3. Change the pendulum's length by some amount by
+            3. Change the pendulum&apos;s length by some amount by
             wrapping/unwrapping the string more. Repeat steps 1-2 with a
             different string length each time.
             <p />
@@ -68,11 +68,7 @@ export default function Lab1() {
           <div>
             <h2>Data</h2>
           </div>
-          <img
-            src="/pendula/table1.png"
-            classname={styles.thintable}
-            text="lab materials"
-          />
+          <img src="/pendula/table1.png" text="lab materials" />
           <h3>
             <b> Table 1. </b> A table recording the length of the pendulum in
             meters, and the measured period time of the pendulum when let swing
@@ -110,7 +106,7 @@ export default function Lab1() {
             <h2></h2>
           </div>
 
-          <img src="/pendula/table2.png" classname={styles.thintable} />
+          <img src="/pendula/table2.png" />
           <h3>
             <b> Table 2. </b> A table showing the theoretical pendulum period
             based on its length found via calculations. Column 4 presents the

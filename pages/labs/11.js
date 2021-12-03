@@ -153,7 +153,7 @@ export default function Lab1() {
       <div className={styles.row}>
         <div className={styles.col}>
           <h2>Entire Lab Report Document</h2>
-          <h3>This was a fun night lab</h3>
+          <h3>This was a fun night lab!</h3>
         </div>
         <object data="/labs/pendula.pdf" type="application/pdf" />
       </div>

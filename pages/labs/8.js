@@ -6,10 +6,10 @@ export default function Lab1() {
   return (
     <div className={styles.container}>
       <Header />
-      <p style={{ flex: 1 }} />
+      <p />
       <h1> Measuring Elasticity</h1>
 
-      <div className={styles.midrow}>
+      <div className={styles.row}>
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>

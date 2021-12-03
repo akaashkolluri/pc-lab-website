@@ -9,7 +9,7 @@ export default function Lab1() {
       <p style={{ flex: 1 }} />
       <h1>Pendula: Periods</h1>
 
-      <div className={styles.midrow}>
+      <div className={styles.row}>
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>

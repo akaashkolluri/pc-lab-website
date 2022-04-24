@@ -63,6 +63,56 @@ const dropdownMenu = (
   </Menu>
 );
 
+const dropdownMenuEandM = (
+  <Menu className={styles.offersMenu}>
+    <Menu.Item key="12">
+      <Link href="/labs/12">
+        <a className={styles.tabs}>Millikan Oil Drop</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="13">
+      <Link href="/labs/13">
+        <a className={styles.tabs}>Electric Field Mapping</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="14">
+      <Link href="/labs/14">
+        <a className={styles.tabs}>Faraday Ice Pail</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="15">
+      <Link href="/labs/15">
+        <a className={styles.tabs}>Capacitors</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="16">
+      <Link href="/labs/16">
+        <a className={styles.tabs}>DC circuits</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="17">
+      <Link href="/labs/17">
+        <a className={styles.tabs}>RC circuits</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="18">
+      <Link href="/labs/18">
+        <a className={styles.tabs}>Amperes Law</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="19">
+      <Link href="/labs/19">
+        <a className={styles.tabs}>Faradays Law</a>
+      </Link>
+    </Menu.Item>
+    <Menu.Item key="20">
+      <Link href="/labs/20">
+        <a className={styles.tabs}>Transformers</a>
+      </Link>
+    </Menu.Item>
+  </Menu>
+);
+
 class Header extends Component {
   render() {
     return (
@@ -72,7 +122,7 @@ class Header extends Component {
             <a className={styles.tabs}>Akaash Kolluri</a>
           </Link>
           <p style={{ flex: 25 }} />
-          <Link href="/labs/11">
+          {/* <Link href="/labs/11">
             <a className={styles.tabs}>Pendula: Periods</a>
           </Link>
           <Link href="/labs/8">
@@ -80,11 +130,17 @@ class Header extends Component {
           </Link>
           <Link href="/labs/4">
             <a className={styles.tabs}>Coffee Filter</a>
-          </Link>
+          </Link> */}
           <p style={{ flex: 3 }} />
           <Dropdown overlay={dropdownMenu}>
-            <a className={styles.tabs}>All Labs</a>
+            <a className={styles.tabs}>Mechanics</a>
           </Dropdown>
+          <Dropdown overlay={dropdownMenuEandM}>
+            <a className={styles.tabs}>Electricity and Magnetism</a>
+          </Dropdown>
+          <Link href="/gallery">
+            <a className={styles.tabs}>Gallery</a>
+          </Link>
           <p style={{ flex: 1 }} />
         </div>
       </Affix>

@@ -63,6 +63,14 @@
   color: black;
 }
 
+.subtitle3 {
+  margin: 0;
+  font-weight: lighter;
+  animation: fadeInDelay3;
+  animation-duration: 8s;
+  color: black;
+}
+
 .image1 {
   margin-top: 50px;
   max-height: 400px;

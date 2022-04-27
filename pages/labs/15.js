@@ -39,6 +39,27 @@ export default function Lab1() {
           </h3>
         </div>
         <div>
+          <h2>Materials</h2>
+          <h3>
+            <a
+              className={styles.link}
+              href="https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_en.html"
+            >
+              {" "}
+              -Virtual Lab Program
+            </a>
+            <p />
+            -Virtual Capacitor
+            <p />
+            -Virtual Wire
+            <p />
+            -Virtual Voltmeter
+            <p />
+            -Virtual Battery
+            <p />
+          </h3>
+        </div>
+        <div>
           <h2>Procedure</h2>
           <h3>
             1. On the “Capacitance” tab of the PhET simulation, the plate
@@ -57,27 +78,6 @@ export default function Lab1() {
             5. The voltmeter was connected across the light bulbs, and the
             capacitor was also attached to the light bulb. The changes in
             potential difference were qualitatively observed.
-            <p />
-          </h3>
-        </div>
-        <div>
-          <h2>Materials</h2>
-          <h3>
-            <a
-              className={styles.link}
-              href="https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_en.html"
-            >
-              {" "}
-              -Virtual Lab Program
-            </a>
-            <p />
-            -Virtual Capacitor
-            <p />
-            -Virtual Wire
-            <p />
-            -Virtual Voltmeter
-            <p />
-            -Virtual Battery
             <p />
           </h3>
         </div>

@@ -12,16 +12,17 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, the motion of a charged particle in different electric
+            fields was explored. Charges were placed in different configurations
+            (varied value) to explore what happens under specific conditions to
+            equipotential curves and electric fields (measured values). It was
+            found that the direction of electric field is perpendicular to
+            equipotential curves, the magnitude of electric field is not
+            constant across an equipotential, the magnitude of electric field is
+            equal to electric potential divided by distance, and an enclosed
+            equipotential can contain both negative and positive charges. Such
+            results are important as they offer new insight into how
+            equipotential curves can be formed, and how they work.
           </h3>
         </div>
 

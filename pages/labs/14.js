@@ -12,16 +12,15 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, the interaction between charged and neutral objects
+            through friction was used to describe the charges of conducting
+            surfaces using electric potential. Charing wands were rubbed onto
+            different cloth-like materials and then the deflection that these
+            wands caused were measured. The wand type and material used were
+            varied, the voltage reading was measured, and everything else was
+            kept constant. It was found that the wand had a negative charge
+            after rubbing it, indicating that friction can cause charges of
+            things to change.
           </h3>
         </div>
 

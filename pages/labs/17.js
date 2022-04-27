@@ -38,6 +38,22 @@ export default function Lab1() {
           </h3>
         </div>
         <div>
+          <h2>Materials</h2>
+          <h3>
+            <p />
+            -Circut kit with:
+            <p />
+            ** two resistors <p /> ** a switch <p />
+            ** a capacitor <p />
+            ** a power source
+            <p />
+            -Capstone software
+            <p />
+            -Voltmeter
+            <p />
+          </h3>
+        </div>
+        <div>
           <h2>Procedure</h2>
           <h3>
             1. A circuit was constructed with a 1.5 V battery and a 0.22 F
@@ -60,22 +76,6 @@ export default function Lab1() {
             points were recorded as the capacitor fully discharged.
             <p />
             6. Steps 1-7 were repeated except with 100 Ω resistance.
-            <p />
-          </h3>
-        </div>
-        <div>
-          <h2>Materials</h2>
-          <h3>
-            <p />
-            -Circut kit with:
-            <p />
-            ** two resistors <p /> ** a switch <p />
-            ** a capacitor <p />
-            ** a power source
-            <p />
-            -Capstone software
-            <p />
-            -Voltmeter
             <p />
           </h3>
         </div>

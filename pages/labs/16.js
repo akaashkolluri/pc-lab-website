@@ -12,16 +12,15 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, equivalent resistance in a circuit was calculated by
+            determining the voltage drops across resistors. Two different
+            circuits were made: one with parallel resistors and one with
+            perpendicular scenarios. The resistors resistivity and battery
+            voltage was kept constant. The set up was varied. The resultant
+            current was measured. The results indicated that resistors in a
+            series are additive and resistors in parallel are harmonically
+            summed. This is important as it confirms the equations that have
+            been already derived.
           </h3>
         </div>
 

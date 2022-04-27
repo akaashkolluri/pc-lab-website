@@ -12,16 +12,12 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, the effect of a changing magnetic field over time was
+            explored. A magnet was moved around a conducting coil to change the
+            magnetic field (changing variable). The resultant current was
+            measured based on how brightly it made a lightbulb shine. The
+            results were that a current was induced when the magnetic field
+            change, which is important as it confirms Faraday’s laws.
           </h3>
         </div>
 

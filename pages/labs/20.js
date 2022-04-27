@@ -12,16 +12,15 @@ export default function Lab1() {
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, the magnitude and reaction of an induced current in a
+            conductive loop was found by calculating inductance. A circuit was
+            set up with an inductor. In the first part of the experiment, the
+            core type was changed, and the secondary voltage was measured and
+            efficiency was calculated. In the second part of the experiment, the
+            core type was again changed, and the secondary voltage was again
+            measured. The results showed that the square type was most
+            efficient, which is useful since it explains well how transformers
+            work.
           </h3>
         </div>
 

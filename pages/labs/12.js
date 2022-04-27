@@ -35,28 +35,6 @@ export default function Lab1() {
           </h3>
         </div>
         <div>
-          <h2>Procedure</h2>
-          <h3>
-            1. On the “Capacitance” tab of the PhET simulation, the plate
-            separation and plate area was varied while everything else was kept
-            constant. The resulting capacitance was changed. <p />
-            2. Step 1 was then repeated, however this time the voltage and
-            capacitance were varied and the stored energy was measured using the
-            voltmeter.
-            <p />
-            3. A power regression was used to find the relationship between the
-            data collected in steps 1 and 2.
-            <p />
-            4. On the “Light Bulb” tab, the plates were charged by increasing
-            the battery voltage The battery was then disconnected.
-            <p />
-            5. The voltmeter was connected across the light bulbs, and the
-            capacitor was also attached to the light bulb. The changes in
-            potential difference were qualitatively observed.
-            <p />
-          </h3>
-        </div>
-        <div>
           <h2>Materials</h2>
           <h3>
             <a className={styles.link} href="https://ophysics.com/em2.html">
@@ -64,13 +42,23 @@ export default function Lab1() {
               -Virtual Lab Program
             </a>
             <p />
-            -Virtual Capacitor
+            -Charged Particles
             <p />
-            -Virtual Wire
+            -Voltage Source
             <p />
-            -Virtual Voltmeter
+          </h3>
+        </div>
+        <div>
+          <h2>Procedure</h2>
+          <h3>
+            1. A particle with an unknown mass was created <p />
+            2. The particle was set into motion, and the voltage in it area was
+            changed until the particle acceleration was 0.
             <p />
-            -Virtual Battery
+            3. The velocity and voltage used were recorded.
+            <p />
+            4. Steps 1-3 were repeated 3 more times with differnt particles of
+            unknown masses.
             <p />
           </h3>
         </div>

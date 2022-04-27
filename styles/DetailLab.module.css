@@ -177,3 +177,14 @@
 .imgcap img {
   width: 20vw;
 }
+
+.link {
+  color: #5e4ae3;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: underline;
+  color: #5e4ae3;
+}

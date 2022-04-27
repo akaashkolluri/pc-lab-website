@@ -1,33 +1,148 @@
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import styles from "../../styles/LabPage.module.css";
+import styles from "../../styles/DetailLab.module.css";
 
 export default function Lab1() {
   return (
     <div className={styles.container}>
       <Header />
-      <p style={{ flex: 1 }} />
+      <p />
       <h1> Millikan Oil Drop</h1>
-      <div className={styles.midrow}>
+      <div className={styles.row}>
         <div className={styles.col}>
           <h2>Summary</h2>
           <h3>
-            In this lab, kinematics was used to calculate final conditions given
-            initial ones. In a simulation, a ball was launched from a cannon
-            into 2d projectile motion. The launch angle and ball mass were kept
-            constant; initial launch speed was varied; final distance was
-            measured. A regression was done to analyze the relation between
-            launch velocity and final distance, and final distance was found to
-            be proportional to initial launch velocity squared. This result is
-            useful as it demonstrates kinematics equations at play, and this
-            relationship can be confirmed through solving for final distance
-            using kinematic equations only.
+            In this lab, the definition of an electric field was used to analyze
+            the net charges of oil droplets based on their initial mass and a
+            known voltage. Charged particles were placed between an area with an
+            electric field and let to move. The particle's mass was varied (the
+            mass varied in an unknown way). The voltage needed and final
+            velocity was measured. The charge, particle mass, charge to mass
+            ratio, and charge in terms of value of e was measured. The results
+            indicated that, for all particles, the charge in terms of e was an
+            integer. This is significant as it indicates that charge is
+            quantized.
           </h3>
         </div>
+      </div>
+      <div className={styles.trirow}>
+        <div className={styles.imgcap}>
+          <img src="/oildrop/fig1.png" text="lab materials" />
 
+          <h3>
+            {" "}
+            <b> Figure 1. </b>A schematic of the virtual experiment setup.{" "}
+          </h3>
+        </div>
+        <div>
+          <h2>Procedure</h2>
+          <h3>
+            1. On the “Capacitance” tab of the PhET simulation, the plate
+            separation and plate area was varied while everything else was kept
+            constant. The resulting capacitance was changed. <p />
+            2. Step 1 was then repeated, however this time the voltage and
+            capacitance were varied and the stored energy was measured using the
+            voltmeter.
+            <p />
+            3. A power regression was used to find the relationship between the
+            data collected in steps 1 and 2.
+            <p />
+            4. On the “Light Bulb” tab, the plates were charged by increasing
+            the battery voltage The battery was then disconnected.
+            <p />
+            5. The voltmeter was connected across the light bulbs, and the
+            capacitor was also attached to the light bulb. The changes in
+            potential difference were qualitatively observed.
+            <p />
+          </h3>
+        </div>
+        <div>
+          <h2>Materials</h2>
+          <h3>
+            <a className={styles.link} href="https://ophysics.com/em2.html">
+              {" "}
+              -Virtual Lab Program
+            </a>
+            <p />
+            -Virtual Capacitor
+            <p />
+            -Virtual Wire
+            <p />
+            -Virtual Voltmeter
+            <p />
+            -Virtual Battery
+            <p />
+          </h3>
+        </div>
+      </div>
+      <div className={styles.row}>
+        <div className={styles.col}>
+          <div>
+            <h2>Data</h2>
+          </div>
+          <img src="/oildrop/table1.png" text="lab materials" />
+          <h3>
+            <b> Table 1. </b> A table recording the velocity, mass, and voltage
+            as measured in the lab.
+          </h3>
+          <div className={styles.spacer} />
+        </div>
+      </div>
+
+      <div className={styles.row}>
+        <div className={styles.col}>
+          <h2>Results</h2>
+
+          <img src="/oildrop/table2.png" />
+          <h3>
+            <b> Table 2. </b>A complete table showing the results of the
+            calculations based on data collected in the lab.
+          </h3>
+          <div className={styles.spacer} />
+        </div>
+      </div>
+
+      <div className={styles.row}>
+        <div className={styles.col}>
+          <h2>Discussion</h2>
+          <h3>
+            The relationship between mass and charge can be found by setting the
+            gravitational force equal to the electric field force, giving us an
+            expression for the charge in terms of mass 𝑚, 𝑔, and the electric
+            field 𝐸. <p />
+            𝑚𝑔 = 𝐸𝑞 → 𝑞 = 𝑚𝑔/𝐸 <p />
+            By substituting 𝐸 as an expression of voltage and distance, we get{" "}
+            <p />
+            𝐸=𝑉/𝑟 <p />
+            𝑞 = 𝑟𝑚𝑔/𝑉 <p />
+            Where 𝑟 = 0.05 𝑚. So, charge increases as mass increases. The values
+            we obtained were not expected because from our expression for mass,
+            it should be proportional to the square of the velocity, which is
+            not always the case in our data. From observing the charge to mass
+            ratio in terms of 𝑒, no clear trend is found as the value sometimes
+            increases then decreases while velocity continues to decrease in
+            magnitude, though this could be due to errors in measuring the
+            voltage.
+            <p />
+            Sources of error are not super prevalent in this lab due to the
+            nature of it being a simulation. Potential sources of error could
+            come from measuring the data, specifically the voltage that results
+            in the particle being at rest, which proved to be difficult since it
+            was hard for the naked eye to tell if a particle was still or moving
+            very slowly. Measurement error could be minimized by conducting more
+            trials.
+          </h3>
+        </div>
+      </div>
+
+      <div className={styles.row}>
+        <div className={styles.col}>
+          <h2>Entire Lab Report Document</h2>
+          <h3>This was a fun night lab!</h3>
+        </div>
         <object data="/labs/LabE1.pdf" type="application/pdf" />
       </div>
-      <p style={{ flex: 1 }} />
+
       <Footer />
     </div>
   );

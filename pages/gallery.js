@@ -20,11 +20,29 @@ export default function Gallery() {
           {" "}
           <source
             src="gallery/video1.mp4"
-            alt="Mr. Shah giving consent to having his photos here"
+            alt="Mr. Shah liking the gallery"
             type="video/mp4"
           ></source>
         </video>
         <h3 className={styles.subtitle3}> Mr. Shah approving this gallery.</h3>
+        <div style={{ flex: 1, flexDirection: "row" }}>
+          {/* <video controls width="250" className={styles.image1}>
+            {" "}
+            <source
+              src="gallery/bike.MOV"
+              alt="Mr. Shah giving consent to having his photos here"
+              type="video/MOV"
+            ></source>
+          </video>
+          <video controls width="250" className={styles.image1}>
+            {" "}
+            <source
+              src="gallery/bike.MOV"
+              alt="Mr. Shah giving consent to having his photos here"
+              type="video/MOV"
+            ></source>
+          </video> */}
+        </div>
         <p style={{ flex: 1 }} />
       </div>
       <Footer />

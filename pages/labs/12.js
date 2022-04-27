@@ -15,7 +15,7 @@ export default function Lab1() {
             In this lab, the definition of an electric field was used to analyze
             the net charges of oil droplets based on their initial mass and a
             known voltage. Charged particles were placed between an area with an
-            electric field and let to move. The particle's mass was varied (the
+            electric field and let to move. The particles mass was varied (the
             mass varied in an unknown way). The voltage needed and final
             velocity was measured. The charge, particle mass, charge to mass
             ratio, and charge in terms of value of e was measured. The results
